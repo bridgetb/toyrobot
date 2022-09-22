@@ -11,6 +11,7 @@ The following test cases are covered in robot_test.cpp:
 5 cases to check that the report string is as expected after a sequence of event(s).
 The equivalent commands would be (each test case separated by two new lines):
 
+```
 PLACE 0,0,NORTH
 MOVE
 REPORT
@@ -167,3 +168,4 @@ LEFT
 MOVE
 REPORT
 Output: 3,3,NORTH
+```
