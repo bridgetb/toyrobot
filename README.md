@@ -7,8 +7,9 @@ The tests are also built in the same CMakeLists.txt and require googletest to be
 Test Cases
 ==========
 The following test cases are covered in robot_test.cpp:
-20 cases where the robot is placed in the four corners and borders of the board, then moved once, followed by a position verification.
-5 cases to check that the report string is as expected after a sequence of event(s).
+* 20 cases where the robot is placed in the four corners and borders of the board, then moved once, followed by a position verification.
+* 5 cases to check that the report string is as expected after a sequence of event(s).
+
 The equivalent commands would be (each test case separated by two new lines):
 
 ```
